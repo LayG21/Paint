@@ -1,0 +1,22 @@
+Welcome to TextPaint!
+Available commands are:
+  COLOR c
+  POINT x y
+  HLINE x y L
+  VLINE x y L
+  BOX x1 y1 x2 y2
+  EXIT
+What size canvas would you like?
+Enter the next drawing command: 
+Enter the next drawing command: 
+Enter the next drawing command: 
+Enter the next drawing command: 
+Enter the next drawing command: 
+Here is your painting:
+      
+      
+  %   
+++++++
+  %   
+  %   
+Goodbye!
