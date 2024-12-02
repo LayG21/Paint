@@ -1,0 +1,8 @@
+8
+COLOR $
+BOX 0 0 7 7
+COLOR E
+BOX 2 2 5 5
+COLOR $
+BOX 3 3 4 4 
+EXIT

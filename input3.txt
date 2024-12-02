@@ -1,0 +1,6 @@
+5
+COLOR .
+BOX 0 0 3 3
+COLOR /
+BOX 1 1 4 4 
+EXIT
