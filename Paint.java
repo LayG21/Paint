@@ -1,4 +1,4 @@
-//Text based paint program that Your prograwill allow the user to enter a series of drawing commands to “paint” text onto a virtual canvas and then display the result of that painting in the output console. 
+//Text based paint program that Your program will allow the user to enter a series of drawing commands to “paint” text onto a virtual canvas and then display the result of that painting in the output console. 
 import java.util.Scanner;
 
 class Paint {
