@@ -45,7 +45,7 @@ class Paint {
     int bY2 = 0;// Second Y value for Box
     char theColor = 'X';// Default Color
 
-    //Time: O(n) as many times the user writes a command Space:O(1)
+    
     while (!userCommand.equals("EXIT")) { // Checks what command the user calls for and loops for user to write command
                                           // until they write EXIT
       System.out.println("Enter the next drawing command:");
@@ -91,7 +91,7 @@ class Paint {
     System.out.println("Goodbye!");
   }
 
-  //Time: O(1) Space:O(1)
+  
   public static char[][] drawPoint(char[][] canvas, int x, int y, char userColor) { // Method draws a point at potition
                                                                                     // x, y unless there is already a +
     char permanent = '+';
@@ -101,7 +101,7 @@ class Paint {
     return canvas;
   }
   
-  // Time: O(len)  Space: O(1)
+  
   public static char[][] Hline(char[][] hCanvas, int x, int y, int length, char currentColor) { // Returns the altered
                                                                                                 // canvas
     for (int j = 0; j < length; ++j) {
@@ -111,7 +111,7 @@ class Paint {
     return hCanvas;
   }
 
-  //Time: O(len)  Space:O(1)
+  
   public static char[][] Vline(char[][] vCanvas, int x, int y, int length, char currentColor) { // Returns the altered
                                                                                                 // canvas
                                                                                                 /*
@@ -124,7 +124,7 @@ class Paint {
     return vCanvas;
   }
   
-  //Time:O(x2 - x1)*(y2 - y1) Space:O(1)
+  
   //Fills box with color starting from (x1,y1) and stops at (x2,y2)
 
   public static char[][] Box(char[][] bCanvas, int x1, int y1, int x2, int y2, char theCurrentColor) { 
@@ -142,14 +142,14 @@ class Paint {
     return bCanvas;
   }
 
-  //Time:O(1) Space: O(1)
+  
   // Returns canvas painted at coordinate x,y
   public static char[][] Point(char[][] pCanvas, int x, int y, char yourColor) { 
     drawPoint(pCanvas, y, x, yourColor); 
     return pCanvas;
   }
 
-  //Time: O(n^2) Space:O(1)
+  
   // Takes in the altered canvas and prints it out to main
   public static void printCanvas(char[][] paintedCanvas) { 
     int i;
